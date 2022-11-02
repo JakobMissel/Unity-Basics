@@ -1176,6 +1176,7 @@ GameObject:
   - component: {fileID: 1863551993}
   - component: {fileID: 1863551997}
   - component: {fileID: 1863551998}
+  - component: {fileID: 1863551999}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -1297,6 +1298,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   playerSpeedMultiplier: 3
+--- !u!114 &1863551999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863551992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c3242602df2824daf487a0dba017a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   characterName: Bean
 --- !u!1001 &732205292763708914
 PrefabInstance:
