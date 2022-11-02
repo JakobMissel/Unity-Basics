@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask playerMask;
     [SerializeField] private float playerSpeedMultiplier = 1f;
 
-
     private bool jumpKeyWasPressed;
     private float horizontalInput;
     private Rigidbody rigidbodyComponent;
